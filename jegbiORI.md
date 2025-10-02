@@ -1,7 +1,10 @@
 /* set judul jurnal  */
 h1.page-header {
   font-size: 24px;
+  /* font-weight: 600; */
+  /* font-weight: bold; */
   line-height: 1.4;
+  /* margin-top: 10px; */
   margin-bottom: 10px;
 }
 
@@ -28,6 +31,7 @@ h1.page-header {
 .customblock-additional-menu {
   margin-top: 20px;
 }
+
 
 /* ================================================ */
 /* Bungkus logo di dalam header, tampil full width */
@@ -87,6 +91,7 @@ h1.page-header {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+
 /* Bungkus layout gambar dan deskripsi */
 .homepage-image,
 .journal-description {
@@ -110,6 +115,7 @@ h1.page-header {
 
 /* Responsif: susun vertikal saat layar kecil */
 @media (max-width: 768px) {
+
   .homepage-image,
   .journal-description {
     display: block;
@@ -126,18 +132,4 @@ h1.page-header {
 
 .page-header {
   margin-top: 0px;
-}
-
-/* xxxx hapus hover e-ISSN  */
-.menu-item-36 a {
-  pointer-events: none; 
-  cursor: default; 
-  color: #fff !important; 
-  text-decoration: none !important;
-}
-
-.menu-item-36 a:hover {
-  color: #fff !important; 
-  background: transparent !important;
-  text-decoration: none !important;
 }
