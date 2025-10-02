@@ -32,7 +32,6 @@ h1.page-header {
   margin-top: 20px;
 }
 
-
 /* ================================================ */
 /* Bungkus logo di dalam header, tampil full width */
 .navbar-brand-logo {
@@ -91,7 +90,6 @@ h1.page-header {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-
 /* Bungkus layout gambar dan deskripsi */
 .homepage-image,
 .journal-description {
@@ -115,7 +113,6 @@ h1.page-header {
 
 /* Responsif: susun vertikal saat layar kecil */
 @media (max-width: 768px) {
-
   .homepage-image,
   .journal-description {
     display: block;
