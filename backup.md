@@ -17,7 +17,7 @@ link profil [--]
 [explore_OJS_LOCAL]
 icon favico di tab [already-done]
 footer things [already-done]
-
+e-ISSN [done]
 
 /* Bungkus dua elemen dalam layout horizontal */
 .journal-description, .current_issue {
