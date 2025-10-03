@@ -1,0 +1,149 @@
+/* set judul jurnal  */
+h1.page-header {
+  font-size: 24px;
+  /* font-weight: 600; */
+  /* font-weight: bold; */
+  line-height: 1.4;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+}
+
+/* set judul page custom */
+.page-header h1 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+/* jarak authors -> button */
+.authors {
+  margin-bottom: 20px;
+}
+
+.pkp_structure_content {
+  margin-top: 20px;
+}
+
+.journal-description {
+  margin-top: 0px;
+}
+
+/* sidebar  */
+.customblock-additional-menu {
+  margin-top: 20px;
+}
+
+
+/* ================================================ */
+/* Bungkus logo di dalam header, tampil full width */
+.navbar-brand-logo {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  background-color: #fff;
+  /* Sesuaikan dengan tema */
+}
+
+/* Tampilkan gambar sesuai ukuran asli */
+.navbar-brand-logo img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  /* Agar tidak overflow */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Navbar tetap berada di bawah gambar */
+.navbar {
+  margin: 0;
+  border-radius: 0;
+  border: none;
+}
+
+/* Hilangkan float pada brand */
+.navbar-brand {
+  float: none !important;
+}
+
+/* Menu navbar tetap rapi */
+.navbar-nav {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* PROGRESS  */
+/* img  */
+.homepage-image {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.thumbnail {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cover-image {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Bungkus layout gambar dan deskripsi */
+.homepage-image,
+.journal-description {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+/* Gambar di kiri */
+.homepage-image {
+  width: 40%;
+  max-width: 300px;
+  margin-right: 30px;
+}
+
+/* Teks deskripsi di kanan */
+.journal-description {
+  width: 55%;
+}
+
+.page-header {
+  margin-top: 0px;
+}
+
+/* hapus style css e-issn  */
+.menu-item-29 a {
+    color: #fff !important;
+    text-decoration: none !important;
+    pointer-events: none;
+    cursor: default;
+}
+
+.menu-item-29 a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+    text-decoration: none !important;
+}
+
+/* Responsif: susun vertikal saat layar kecil */
+@media (max-width: 768px) {
+
+  .homepage-image,
+  .journal-description {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .homepage-image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
