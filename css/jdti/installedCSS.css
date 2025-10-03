@@ -114,14 +114,14 @@ h1.page-header {
 
 /* xxxx hapus hover e-ISSN  */
 .menu-item-36 a {
-  pointer-events: none; 
-  cursor: default; 
-  color: #fff !important; 
+  pointer-events: none;
+  cursor: default;
+  color: #fff !important;
   text-decoration: none !important;
 }
 
 .menu-item-36 a:hover {
-  color: #fff !important; 
+  color: #fff !important;
   background: transparent !important;
   text-decoration: none !important;
 }
